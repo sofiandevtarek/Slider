@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --background-color: #faebd7;
+  --light-orange: #f9aa44;
+  --beige: #ceb99d;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slider .slide img {
+  
+}
