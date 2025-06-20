@@ -15,6 +15,8 @@ body {
   background-color: var(--background-color);
 }
 
+/* Code Start */
+
 main {
   height: 100vh;
   display: flex;
@@ -23,6 +25,53 @@ main {
   text-align: center;
 }
 
-.slider .slide img {
-  
+.slider {
+  padding: 10px;
+  position: relative;
 }
+
+.slide img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.slide .content p {
+  margin: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content .qoute .fa-quote-left {
+  font-size: 30px;
+  color: var(--light-orange);
+  margin-bottom: 20px;
+}
+
+.content .name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content .jop {
+  color: var(--light-orange);
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+/* Code End */
